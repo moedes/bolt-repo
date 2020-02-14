@@ -10,6 +10,18 @@ Configuration Baseline
         ValueName   = "TestKey"
         ValueData   = "0"
     }
+
+    WindowsFeature IISWebsite
+    {
+        Name = "Web-Server"
+        Ensure = "Absent"
+    }
+
+    WindowsFeature IISMGMT
+    {
+        Name = "Web-Mgmt-Console"
+        Ensure = "Absent"
+    }
 }
 
 #Compiles the Baseline Configuration to produce the MOF (Managed Object Format) file
