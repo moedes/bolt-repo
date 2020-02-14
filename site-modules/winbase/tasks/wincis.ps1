@@ -1,6 +1,6 @@
 #Example of using multiple resources in DSC
 
-#Test of defineing Baseline configuration for a system
+#Test of defining Baseline configuration for a system
 Configuration Baseline
 {
     Install-Module -Name SecurityPolicyDsc
