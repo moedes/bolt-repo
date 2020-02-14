@@ -1,6 +1,6 @@
-#Example CIS Hardening file
+#Example of using multiple resources in DSC
 
-#Defines Baseline configuration for a system
+#Test of defineing Baseline configuration for a system
 Configuration Baseline
 {
     Install-Module -Name SecurityPolicyDsc
