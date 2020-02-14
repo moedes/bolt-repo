@@ -11,7 +11,7 @@ Configuration Baseline
         AccountPolicy PasswordPolicy
         {
             Name                     = 'Enforcement'
-            Enforce_password_history = 10
+            Enforce_password_history = 5
         }
     }
     catch {write-host "I caught an error in Accountpolicy"}
