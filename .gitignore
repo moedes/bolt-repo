@@ -1,1 +1,3 @@
 *.yaml
+site-modules/.DS_Store
+site-modules/winbase/.DS_Store
